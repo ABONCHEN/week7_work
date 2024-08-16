@@ -1,0 +1,141 @@
+
+@import url('https://meyerweb.com/eric/tools/css/reset/reset200802.css');
+@import url('https://fonts.googleapis.com');
+@import url('https://fonts.gstatic.com');
+
+@import url('https://fonts.googleapis.com/css2?family=Castoro:ital@0;1&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Sans+TC:wght@100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+body {
+    font-family: "Castoro", serif;
+    line-height: 1.5;
+    font-size: 24px;
+    font-style: normal;
+}
+
+.container {
+    width: 1296px;
+    margin: 0 auto;
+}
+
+.cvleft h1,
+.cvright h2 {
+    display: block;
+    font-size: 5.333em;
+    line-height: 1.2;
+}
+
+.cvleft {
+    display: block;
+    margin-left: auto;
+    margin-top: 32px;
+    margin-bottom: 32px;
+
+}
+
+.cvright {
+    display: block;
+    text-align: right;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    letter-spacing: 19px;
+}
+
+.cvphoto {
+    display: block;
+    margin: 0 auto;
+    width: 636px;
+}
+
+.gbg {
+    background-color: #EFEFEF;
+    margin-bottom: 50px;
+}
+
+
+
+.cvdetial {
+    display: block;
+
+}
+
+.cv {
+    margin-left: auto;
+    width: 636px;
+    font-size: 1.333em;
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+.tbg {
+    width: 636px;
+    margin-top: 80px;
+    padding-bottom: 356px;
+
+}
+
+.tul {
+    width: 636px;
+}
+
+.tul_title {
+    color: #AE0000;
+    display: block;
+    font-size: 1.667em;
+    border-bottom: #AE0000 3px solid;
+
+}
+
+.tul {
+    margin-top: 10px;
+    margin-bottom: 160px;
+}
+
+.tul_word,
+.tul_word a {
+    font-size: 1em;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    text-decoration: none;
+    color: #000;
+
+}
+
+.t {
+    margin-bottom: 30px;
+}
+
+.gray {
+    font-size: 0.833em;
+    color: #949494;
+    font-style: italic;
+}
+
+
+.footer {
+    background: #000;
+    font-size: 0;
+}
+
+.footerc {
+    padding: 64px 0 64px 0;
+    text-align: center;
+
+}
+
+.footeritem {
+    display: inline-block;
+    text-align: center;
+    padding-right:12px;
+    padding-left:12px;
+}
+
+.footeritem a {
+    display: block;
+    width: 64px;
+}
+
+.footeritem img {
+    display: block;
+    width: 100%;
+}
